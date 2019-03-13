@@ -39,7 +39,6 @@ We use [GitHub](https://github.com/) for versioning.
 
 ## Authors
 * **Sahil Kalyani** - *Initial work* - [sahil-75](https://github.com/sahil-75)
-* **Shubham Gupta** - *Initial work* - [akanerdcaps](http://github.com/akanerdcaps)
 
 See also the list of [contributors](https://github.com/sahil-75/Impulse_18/graphs/contributors) who participated in this project.
 

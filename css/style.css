@@ -1,0 +1,718 @@
+/*Developed by SAHIL G. KALYANI*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	transition: all 1s ease;
+}
+
+p
+{
+	text-align: justify;
+	font-size: 1.5em;
+	font-family: sans-serif;
+	font-family: 'Dosis', sans-serif;
+	line-height: 1.2;
+}
+
+.btn
+{
+	font-weight: bold;
+}
+
+#loader
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+}
+
+#notice
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+}
+
+#section1
+{
+	width: 100%;
+	height: 670px;
+    position: relative;
+	background: url('../img/1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.4);
+}
+
+#section2, #section4, #section6, #section8, #section10
+{
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+#section3
+{
+	width: 100%;
+	height: 400px;
+	background: url('../img/2.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.4);
+}
+
+@media (max-width: 991px)
+{
+	.head-text
+	{
+    	width: 50%;
+    }
+}
+
+@media (min-width: 991px)
+{
+    #section6 img
+    {
+	   height: 280px;
+    }
+}
+
+@media (max-width: 1080px)
+{
+	.head-text
+	{
+    	width: 35%;
+    }
+}
+
+.head-text
+{
+	width: 60%;
+    margin: 20% auto;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+}
+
+.head-text h2
+{
+	margin: 0;
+    padding: 0.5em;
+    font-size: 5em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 4px;
+    border: solid 16px #FFFFFF;
+}
+
+#section5
+{
+	width: 100%;
+	height: 400px;
+	background: url('../img/3.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.4);
+}
+
+#section7
+{
+	width: 100%;
+	height: 400px;
+	background: url('../img/4.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.4);
+}
+
+#section9
+{
+	width: 100%;
+	height: 400px;
+	background: url('../img/5.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.4);
+}
+
+#footer
+{
+	background: #201D23;
+	color: white;
+    padding: 10px;
+}
+
+#section2, #section4, #section6, #section8 , #section10 h1
+{
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.cl
+{
+	min-height: 3vw;
+	padding: 15px 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+	color: white;
+}
+
+#section4 img
+{
+	width: 325px;
+	height: 200px;
+	position: relative;
+	top: 0;
+	left: 0;
+	transition: all 0.2s ease;
+}
+
+#section4 img:hover
+{
+	transform: scale(1.05);
+	box-shadow: 0 0 35px -8px #000;
+	transition: all 0.2s ease;
+}
+
+#section6 img
+{
+	width: 350px;
+	position: relative;
+	top: 0;
+	left: 0;
+	box-shadow: 0 0 35px -8px #000;
+}
+
+h1, h2, h3, h4
+{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+h1, h2
+{
+	font-family: 'Bad Script';
+}
+
+nav a
+{
+	font-size: 1.3em;
+}
+
+.container-fluid
+{
+	padding: 10px 25px 10px 100px;
+}
+
+#ttl
+{
+	font-size: 2.5em;
+	color: white;
+	text-align: center;
+	font-family: 'Dancing Script';
+	text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+hr
+{
+	width: 30%;
+	margin: 20px auto;
+	padding-top: 20px;
+	border-top: 2px solid white;
+}
+
+#section6 .cl
+{
+	min-height: 0;
+	padding: 0;
+	margin-bottom: 1px;
+}
+
+#section6 .cl img
+{
+	width: 99%;
+	border: solid 2px white;
+}
+
+.clg_logo
+{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.clg_text
+{
+    width: 100%;
+    font-size: 1.7em;
+    margin-top: 10px;
+    text-align: left !important;
+}
+
+.wd_logo
+{
+    width: 27%;
+    margin-left: 10px;
+}
+
+.wd_text
+{
+    width: 40%;
+    font-size: 1.7em;
+    margin-top: 10px;
+    margin-left: 90px;
+    text-align: center !important;
+}
+
+.ch
+{
+	width: 200px;
+	height: 284px;
+	margin: 25px auto;
+	border: solid 2px white;
+	box-shadow: 0 0 35px -8px #000;
+	position: relative;
+	padding: 0;
+}
+
+#mymodal_img
+{
+    position: fixed;
+    z-index: 1050;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1,1,1,0.8);
+}
+
+.icard
+{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.tcard
+{
+	transition: 0.5s ease;
+  	opacity: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	width: 100%;
+	padding: 3px;
+  	transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.ch:hover .icard
+{
+    opacity: 0.3;
+}
+
+.ch:hover .tcard
+{
+    opacity: 1;
+}
+
+#footer .container h3
+{
+	font-size: 2em;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#footer .container h4
+{
+	font-size: 1.5em;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#footer .container a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 1.3em;
+}
+
+#rules
+{
+	font-weight: bold;
+	font-size: 1.3em;
+	text-decoration: none;
+	transition: all 0s ease;
+	padding: 0 10px;
+    color: blue !important;
+}
+
+#rules:hover
+{
+	text-decoration: underline;
+}
+
+label
+{
+	color: black;
+	padding-top: 5px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#to-top
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background: red;
+	color: white;
+	font-weight: bolder;
+	font-size: 1.8em;
+	border: solid 2px white;
+}
+
+#music
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background: red;
+	color: white;
+	font-weight: bolder;
+	font-size: 1.8em;
+	border: solid 2px white;
+}
+
+.music
+{
+	position: fixed;
+	bottom: 15px;
+	left: 15px;
+	cursor: pointer;
+	transition: all 0s ease;
+}
+
+.musictip
+{
+	visibility: hidden;
+	background: white;
+	color: red;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-left: 10px;
+	margin-top: 7px;
+	padding: 12px;
+	border-radius: 5px;
+	transition: all 0.2s ease;
+}
+
+.totop
+{
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	cursor: pointer;
+	transition: all 0s ease;
+}
+
+.totoptip
+{
+	visibility: hidden;
+	background: white;
+	color: red;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-right: 10px;
+	margin-top: 7px;
+	padding: 12px;
+	border-radius: 5px;
+	transition: all 0.2s ease;
+}
+
+.totop:hover .totoptip
+{
+	visibility: visible;
+}
+
+.music:hover .musictip
+{
+	visibility: visible;
+}
+
+form textarea
+{
+	background: white;
+	padding: 10px;
+	border: none;
+	color: black;
+	resize: none;
+	border-radius: 5px;
+}
+
+#brochure
+{
+	font-family: 'Bad Script';
+	cursor: pointer;
+}
+
+#brochure:hover
+{
+	color: yellow;
+	text-decoration: underline;
+}
+
+.crd
+{
+    cursor: pointer !important;
+    padding: 10px 20px;
+    transition: 0s !important;
+}
+
+.crd:hover
+{
+    border: solid 1px white;
+    box-shadow: 0 0 35px -8px #000;
+}
+
+.marker-logo
+{
+    margin: 0;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+    font-family: 'nova flat';
+    font-size: 3em
+}
+
+.marker-logo:before, .marker-logo:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    font-family: 'nova flat';
+}
+
+.marker-logo:before
+{
+    color: #5AE8FD;
+    z-index: -1;
+}
+
+.marker-logo:after
+{
+    color: #FD5AE8;
+    z-index: -2;
+}
+
+.marker-logo:hover:before
+{
+    animation: glitchy 0.2s ease 0.3s infinite;
+    display: block;
+}
+
+.marker-logo:hover:after
+{
+    animation: glitchy 0.3s ease infinite reverse;
+    display:  block;
+}
+
+.checkbox
+{
+    margin-bottom: 15px !important;
+}
+
+input[type="checkbox"]
+{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    position:static;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.checkbox label
+{
+    color: black;
+    line-height: 1 !important;
+    font-size: 20px !important;
+}
+
+fieldset h2
+{
+    color: #8e3cfe;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 1.7em;
+    font-family: 'arial';
+    font-weight: normal;
+}
+
+fieldset hr
+{
+    width: 70%;
+	margin: 10px auto;
+	padding: 0;
+	border-top: 2px solid #8e3cfe;
+}
+
+@keyframes glitchy
+{
+    0%
+    {
+       transform: translate(-3px, 3px);
+    }
+    25%
+    {
+       transform: translate(-3px, -3px);
+    }
+    50%
+    {
+       transform: translate(3px, 3px);
+    }
+    75%
+    {
+       transform: translate(3px, -3px);
+    }
+    100%
+    {
+       transform: translate(-3px, 3px);
+    }
+}
+
+body.modal-open-noscroll 
+{
+    margin-right: 0!important;
+    padding-right: 0!important;
+}
+.modal-open-noscroll .navbar-default, .modal-open .navbar-default 
+{
+    margin-right: 0!important;
+    padding-right: 0!important;
+}
+
+#closebtn
+{
+    margin-top: -10px !important;
+    margin-right: -3px !important;
+    font-size: 25px !important;
+    font-weight: 200 !important;
+    color: white !important;
+    opacity: 1 !important;
+}
+
+.mouse
+{
+    position: absolute;
+    bottom: 20px;
+    left: 49%;
+    
+    width: 35px;
+    height: 55px;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.scroller
+{
+    width: 5px;
+    height: 5px;
+    margin: 10px auto;
+    border-radius: 100%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+}
+
+.form-control
+{
+    font-size: 14px !important;
+    padding: 10px 15px !important;
+    font-size: 14px !important;
+}
+
+.fields
+{
+    padding: 20px;
+    border-radius: 5px;
+    background: white;
+    animation: shrink;
+}
+
+@keyframes scroll
+{
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+}
+
+@keyframes shrink
+{
+    from { transform: scale(1,1); }
+    to { transform: scale(0.75,0.75); }
+}
+
+@keyframes grow
+{
+    from { transform: scale(0.75,0.75); }
+    to { transform: scale(1,1); }
+}
+
+@font-face {
+	font-family:'Dosis';
+	src:url(../fonts/dosis-light.ttf) format('truetype');
+}
+
+@font-face {
+	font-family:'Dancing Script';
+	src:url(../fonts/dancing-script.ttf) format('truetype');
+}
+
+@font-face {
+	font-family:'Bad Script';
+	src:url(../fonts/bad-script.ttf) format('truetype');
+}
+
+/*Developed by SAHIL G. KALYANI*/
